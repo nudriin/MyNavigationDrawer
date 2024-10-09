@@ -23,10 +23,17 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
-        android:id="@+id/cartFragment"
+        android:id="@+id/nav_cart"
         android:name="com.nudriin.mynavigationdrawer.CartFragment"
         android:label="CartFragment"
         tools:layout="@layout/fragment_cart"
+        />
+
+    <activity
+        android:id="@+id/nav_subway"
+        android:name="com.nudriin.mynavigationdrawer.SubwayActivity"
+        tools:layout="@layout/activity_subway"
+        android:label="@string/menu_subway"
         />
 
 
